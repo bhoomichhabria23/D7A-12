@@ -57,9 +57,6 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80%; 
-    width: 100%;
-    gap: 50px;  
 }
 
 .left-side{
@@ -75,7 +72,7 @@ nav ul{
 }
 
 .left-side p{
-    margin-top: 100px;
+    margin-top: 50px;
     padding-bottom: 40px;
 }
 
@@ -123,11 +120,7 @@ nav ul{
 }
 
 #header{
-    justify-content: center;
-    align-items:center ;
-    color: black;
     height: 150px;
-    flex-direction: column;
 }
 
 #header h1{
@@ -137,15 +130,10 @@ nav ul{
     padding-top: 30px;
 }
 
-#header small{
-    color: gray;
-}
-
 #flavour{
     background-image: url(bg.jpg);
     background-position: center;
     background-size: cover;
-    padding-bottom: 20px;
 }
 
 #flavour>div{
@@ -154,7 +142,6 @@ nav ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 #flavour>div>*{
@@ -173,8 +160,7 @@ nav ul{
 #contact {                  
     padding: 40px;                   
     background-image: url('bg-2.jpg');
-    background-size: cover;         
-    height: auto;            
+    background-size: cover;                
 }
 
 #header-1{
@@ -182,6 +168,7 @@ nav ul{
     font-size: 20px;
     padding-bottom: 25px;
 }
+
 .right1{
     width: 50%;
     padding: 40px;
@@ -215,14 +202,11 @@ nav ul{
     font-size: 20px;
     border-radius: 5px;
     text-align: center;
-    cursor: pointer;
     margin: 20px auto; 
-    width: auto; 
 }
 
 .icons1 p{
     color: white;
-    text-align: center;
 }
 
 footer{
@@ -232,7 +216,6 @@ footer{
 }
 
 .icons2 i{
-    padding-left: 1px;
     margin: 15px 10px;
     font-size: 25px;
     color: white;
